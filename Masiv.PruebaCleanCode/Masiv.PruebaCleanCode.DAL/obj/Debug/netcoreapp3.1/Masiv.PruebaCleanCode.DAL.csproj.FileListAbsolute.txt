@@ -1,0 +1,12 @@
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.deps.json
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.dll
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.csprojAssemblyReference.cache
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.AssemblyInfoInputs.cache
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.AssemblyInfo.cs
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.pdb
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.dll
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.pdb
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.csproj.CopyComplete
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.dll
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.DAL\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.DAL.pdb

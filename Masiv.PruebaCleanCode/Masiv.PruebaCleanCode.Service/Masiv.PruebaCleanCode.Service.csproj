@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>311d0326-48aa-4722-b383-45bade7e0402</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Masiv.PruebaCleanCode.DAL\Masiv.PruebaCleanCode.DAL.csproj" />
+    <ProjectReference Include="..\Masiv.PruebaCleanCode.Entities\Masiv.PruebaCleanCode.Entities.csproj" />
+  </ItemGroup>
+
+
+</Project>

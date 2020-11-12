@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u00FIqO4kU36bW8BRTCIouZqotW+m9uSeUiEGHxsE58gGnoTq3VDEIc4FydIesTQ7YKaLd3RSrefdjOL9v+iHw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Util\\Masiv.PruebaCleanCode.Util.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Esteb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

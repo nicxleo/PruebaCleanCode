@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ObuBPj7IKbq5cubTUY6Iivz3pncdYF5+cwCXpnHWct4Xjn4SnVJvqy7UG+q6yAq9YGQta0Fol8f7HJRP+VxbWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Entities\\Masiv.PruebaCleanCode.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Esteb\\.nuget\\packages\\mongodb.bson\\2.11.4\\mongodb.bson.2.11.4.nupkg.sha512",
+    "C:\\Users\\Esteb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

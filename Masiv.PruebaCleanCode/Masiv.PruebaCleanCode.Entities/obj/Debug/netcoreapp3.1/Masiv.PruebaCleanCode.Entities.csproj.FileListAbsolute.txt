@@ -1,0 +1,9 @@
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.deps.json
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.dll
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.csprojAssemblyReference.cache
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.AssemblyInfoInputs.cache
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.AssemblyInfo.cs
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\bin\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.pdb
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.dll
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.pdb
+C:\Users\Esteb\source\repos\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Entities\obj\Debug\netcoreapp3.1\Masiv.PruebaCleanCode.Entities.csproj.CoreCompileInputs.cache

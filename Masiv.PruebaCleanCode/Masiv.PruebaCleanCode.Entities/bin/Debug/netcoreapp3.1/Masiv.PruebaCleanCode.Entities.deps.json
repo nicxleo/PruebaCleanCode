@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Masiv.PruebaCleanCode.Entities/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.11.4"
+        },
+        "runtime": {
+          "Masiv.PruebaCleanCode.Entities.dll": {}
+        }
+      },
+      "MongoDB.Bson/2.11.4": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.4.0",
+            "fileVersion": "2.11.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Masiv.PruebaCleanCode.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MongoDB.Bson/2.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4i/c7Qq4ov2r1Z9yMigcQNLVukJDuMJclKiHLGPx6fpV0c8/A/WMsRDQJv3NeEhkKbFXamxFmRPKv1ztw0u3cA==",
+      "path": "mongodb.bson/2.11.4",
+      "hashPath": "mongodb.bson.2.11.4.nupkg.sha512"
+    }
+  }
+}
