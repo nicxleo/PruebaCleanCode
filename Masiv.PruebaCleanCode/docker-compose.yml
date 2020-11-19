@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  masiv.pruebacleancode.service:
+    image: ${DOCKER_REGISTRY-}masivpruebacleancodeservice
+    build:
+      context: .
+      dockerfile: Masiv.PruebaCleanCode.Service/Dockerfile
+    depends_on:
+      - mongodb
+  mongodb:
+    container_name: mongo
+    image: mongo:latest

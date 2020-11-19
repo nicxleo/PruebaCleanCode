@@ -1,0 +1,48 @@
+services:
+  masiv.pruebacleancode.service:
+    build:
+      context: C:\Users\Esteb\Documents\GitHub\PruebaCleanCode\Masiv.PruebaCleanCode
+      dockerfile: Masiv.PruebaCleanCode.Service/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Masiv.PruebaCleanCode.Service
+      target: base
+    container_name: Masiv.PruebaCleanCode.Service_1
+    depends_on:
+      mongodb:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: masivpruebacleancodeservice:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/netcoreapp3.1/Masiv.PruebaCleanCode.Service.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 8081
+      target: 80
+    - published: 8082
+      target: 443
+    tty: true
+    volumes:
+    - C:\Users\Esteb\Documents\GitHub\PruebaCleanCode\Masiv.PruebaCleanCode\Masiv.PruebaCleanCode.Service:/app:rw
+    - C:\Users\Esteb\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Esteb\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Esteb\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Esteb\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\Esteb\Documents\GitHub\PruebaCleanCode\Masiv.PruebaCleanCode:/src:rw
+  mongodb:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+    - published: 8080
+      target: 27017
+    restart: always
+version: '3.4'

@@ -8,6 +8,8 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1-buster AS build
 WORKDIR /src
 COPY ["Masiv.PruebaCleanCode.Service/Masiv.PruebaCleanCode.Service.csproj", "Masiv.PruebaCleanCode.Service/"]
+COPY ["Masiv.PruebaCleanCode.Entities/Masiv.PruebaCleanCode.Entities.csproj", "Masiv.PruebaCleanCode.Entities/"]
+COPY ["Masiv.PruebaCleanCode.DAL/Masiv.PruebaCleanCode.DAL.csproj", "Masiv.PruebaCleanCode.DAL/"]
 RUN dotnet restore "Masiv.PruebaCleanCode.Service/Masiv.PruebaCleanCode.Service.csproj"
 COPY . .
 WORKDIR "/src/Masiv.PruebaCleanCode.Service"

@@ -4904,11 +4904,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Service\\Masiv.PruebaCleanCode.Service.csproj",
+      "projectUniqueName": "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Service\\Masiv.PruebaCleanCode.Service.csproj",
       "projectName": "Masiv.PruebaCleanCode.Service",
-      "projectPath": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Service\\Masiv.PruebaCleanCode.Service.csproj",
+      "projectPath": "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Service\\Masiv.PruebaCleanCode.Service.csproj",
       "packagesPath": "C:\\Users\\Esteb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Service\\obj\\",
+      "outputPath": "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Esteb\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4923,12 +4923,13 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.DAL\\Masiv.PruebaCleanCode.DAL.csproj": {
-              "projectPath": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.DAL\\Masiv.PruebaCleanCode.DAL.csproj"
+            "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.DAL\\Masiv.PruebaCleanCode.DAL.csproj": {
+              "projectPath": "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.DAL\\Masiv.PruebaCleanCode.DAL.csproj"
             },
-            "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Entities\\Masiv.PruebaCleanCode.Entities.csproj": {
-              "projectPath": "C:\\Users\\Esteb\\source\\repos\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Entities\\Masiv.PruebaCleanCode.Entities.csproj"
+            "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Entities\\Masiv.PruebaCleanCode.Entities.csproj": {
+              "projectPath": "C:\\Users\\Esteb\\Documents\\GitHub\\PruebaCleanCode\\Masiv.PruebaCleanCode\\Masiv.PruebaCleanCode.Entities\\Masiv.PruebaCleanCode.Entities.csproj"
             }
           }
         }
@@ -4941,6 +4942,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
             "target": "Package",
@@ -4957,12 +4959,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.2, 3.1.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -4971,7 +4967,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

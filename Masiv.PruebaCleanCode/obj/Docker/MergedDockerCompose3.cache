@@ -1,0 +1,28 @@
+services:
+  masiv.pruebacleancode.service:
+    build:
+      context: C:\Users\Esteb\Documents\GitHub\PruebaCleanCode\Masiv.PruebaCleanCode
+      dockerfile: Masiv.PruebaCleanCode.Service/Dockerfile
+    depends_on:
+      mongodb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: masivpruebacleancodeservice
+    ports:
+    - published: 8081
+      target: 80
+    - published: 8082
+      target: 443
+    volumes:
+    - C:\Users\Esteb\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Esteb\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  mongodb:
+    container_name: mongo
+    image: mongo:latest
+    ports:
+    - published: 8080
+      target: 27017
+    restart: always
+version: '3.4'
